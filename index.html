@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pixels Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+  </head>
+  <body>
+    <h1 class="display-4" id="title">Paleta de Cores</h1>
+
+    <section id="color-palette">
+      <div class="color black"></div>
+    </section>
+
+    <button class="btn btn-primary" id="clear-board">Limpar</button>
+
+    
+    <input class="input" type="number" name="size" id="board-size" min="1" placeholder="Escolha o tamanho">
+    <button class="btn btn-success" id="generate-board">VQV</button>
+
+    <section class="pixel-board" id="pixel-board"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
